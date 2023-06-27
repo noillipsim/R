@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="author" content="Posit Software, PBC">
+<meta charset="utf-8">
+
+<meta name="test:template" content="login">
+<meta name="description" content="Log in to Posit.">
+<title>Posit - Log In</title>
+
+<meta name="viewport" content="width=device-width initial-scale=1.0, maximum-scale=1.0">
+<link href="/static/cloud/auth.css?v=cc2716436a67208490b5a46dd42fb4714725c62b2c07a1a2aae18b0839dc2090cefe42b80fd94f83306e46ddd7bfed1c49b0c04c9963169e5484cf917e583ffa" rel="stylesheet">
+<link href="/static/cloud/images/favicon.ico?v=df99bd5b2e9d59c5d6c8ce5e2e1d7c4265e23b8979eb9b48311e25bbe28334c395f1fbec07ecd393ffb4a0a5af202e4eca8fc231b4166880e6b5fffc93ca607f" rel="icon">
+<script type="text/javascript">
+window.server = {"redirect": "/oauth/authorize?client_application=9371972&client_signature=2ecc41379d92f87db693f7fd98eabbc7349d3949fc07541e68b90329488abafc&redirect_uri=https%3A%2F%2F907eb411de3a4a9ea3c6f172841f40c1.app.posit.cloud%2F__login__%2F&response_type=code&state=eyJhdXRvX2xvZ2luIjogdHJ1ZX0%3D&show_login=0&show_auth=0&client_id=BB3660D3E930E6FB5777E6D380AA7E261BEAFBE27DC26732", "_xsrf": "2|62b61639|7d203f60ab120e93bf7d6072536c14a2|1687871133"};
+</script>
+</head>
+<body>
+<div id="app" class="shrinkHeader">
+<div id="main">
+<header id="rStudioHeader">
+<div class="band">
+<div class="innards bandContent">
+<div id="logoContainer">
+<a href="/">
+<div class="productLogo"></div>
+</a>
+</div>
+</div>
+</div>
+</header>
+<div class="band pushFooter">
+<div id="entry" class="bandContent mainPage dontPadExtra"></div>
+</div>
+<div id="rStudioFooter" class="band">
+<div class="bandContent">
+<div>
+<div id="footerLogo"></div>
+<div class="footerMenu">
+<a href="https://posit.co/about/posit-service-terms-of-use/" target="_blank" rel="noopener noreferrer">
+Terms
+</a>
+<a href="https://status.posit.co/" target="_blank" rel="noopener noreferrer">
+Status
+</a>
+</div>
+</div>
+<div id="logos">
+<a href="https://pos.it/facebook" class="footerLogo facebook" aria-label="Facebook" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://pos.it/twitter" class="footerLogo twitter" aria-label="Twitter" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://pos.it/linkedin" class="footerLogo linkedIn" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://pos.it/instagram" class="footerLogo instagram" aria-label="Instagram" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://pos.it/github" class="footerLogo gitHub" aria-label="GitHub" target="_blank" rel="noopener noreferrer"></a>
+<div id="copyright">&copy; 2022 Posit Software, PBC</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="/static/js/vendor.js?v=47f9cf0035c2efa0a93453e8c43f5a294a77959066ee5d7e7c674e372739da3ded8aa1e64aea964caebbfc70d17b3286a23b85ba956bc70190c90a28f7f5c23d" type="text/javascript"></script>
+
+<script src="/static/js/login.js?v=f9de073eb77ebb029b0ef315c321c86e39f7dc693ac846b99c0c36685dba7dbb8d6966fd7affcbebbaaeb009e290927411427abecefec7743e423135235318a4" type="text/javascript"></script>
+
+</body>
+</html>
